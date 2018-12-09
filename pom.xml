@@ -44,5 +44,8 @@
 
 	<modules>
 		<module>first-module-for-initilizing-all-config</module>
+		<module>dao-module</module>
+		<module>services-module</module>
+		<module>web-services-module</module>
 	</modules>
 </project>

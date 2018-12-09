@@ -1,0 +1,4 @@
+org\web\services\module\AppConfig.class
+org\web\services\module\App.class
+org\web\services\module\HelloController$Result.class
+org\web\services\module\HelloController.class
