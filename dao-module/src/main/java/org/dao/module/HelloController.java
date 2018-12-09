@@ -1,6 +1,5 @@
 package org.dao.module;
 
-import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
@@ -18,9 +17,15 @@ public class HelloController {
         return "Hello World!";
     }
 
-    @Data
+    
     static class Result {
-        private final int left;
+        public Result(int left2, int right2, long long1) {
+
+        this.left=left2;
+        this.right=right2;
+        this.answer=long1;
+        }
+		private final int left;
         private final int right;
         private final long answer;
     }
