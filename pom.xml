@@ -11,7 +11,7 @@
 	<groupId>fr.java-tutorial-parent-packtage-pom</groupId>
 	<artifactId>parent-project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 	<name>parent-project</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -42,4 +42,7 @@
 	</build>
 
 
+	<modules>
+		<module>first-module-for-initilizing-all-config</module>
+	</modules>
 </project>
